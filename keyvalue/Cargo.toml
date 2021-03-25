@@ -1,0 +1,14 @@
+[package]
+name = "keyvalue"
+version = "0.1.0"
+authors = ["sudeep"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocksdb = "0.15"
+rusqlite = "0.24"
+log = "0.4"
+parking_lot = "0.11"
+zstd = "0.5"
